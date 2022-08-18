@@ -208,7 +208,7 @@
   
       .caja__trasera div{
           margin: 0px;
-          position: absolute;
+          position: relative;
       }
   
   
