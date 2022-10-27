@@ -4,14 +4,20 @@
 		<title>Giselle Moraez Boyko Portfolio Web</title>
 		<meta charset="utf-8" />
 <link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="assets/js/login.html">
 <title> Encabezado </title>
 	</head>
 <body>
 <header>
+    </div class= "row">
+    </div class="container">
 	<div class="logo">
 		<img src="images/argprograma.jpg" class="argprograma-img">
 		<h1>#YoProgramo 2da edición</h1>
-		</div>
+	</div class="button">
+		<button type="button" class="btn btn-outline-light" (click)="login()">INGRESO</button>
+		<button type="button" class="btn btn-outline-light">REGISTRARSE</button>
+	</div>
 <header>
 
 <html lang="en">
@@ -20,19 +26,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="assets/css/main.css" />
 <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
-<link rel="stylesheet" href="social-bar/fonts/estilos.css"/>
-    <title>Social-bar</title>
-</head>
-<body>
-  <div class="social-bar">
-    <a href="https://www.facebook.com/giselle.moraezboyko" class="icon icon-facebook" target="_blank"></a>
-    <a href="https://www.instagram.com/gisellemboyko/" class="icon icon-instagram" target="_blank"></a>
-	<a href="https://www.linkedin.com/giselle-moraez-boyko-6a9182116/"  class="icon icon-linkedin" target="_blank"></a>
-  </div>
-</body>
-		
-	class="is-preload">
-		
+<link rel="stylesheet" href="assets/css/estilos.css" />
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
@@ -44,7 +38,7 @@
 								<div class="content color0 span-3-75">
 									<h1 class="major">Hola, mi nombre es Giselle<br />
 								</h1>
-									<p>Soy Contadora Publica <strong>, Egresada de UCASAL</strong>, y en mis tiempos libres aprendo y me desconecto del mundo capacitandome en Programacion, a traves de Argentina Programa.</p>
+									<p>Soy Contadora Publica <strong>, Egresada de UCASAL</strong>, estudiante de  Programación, a través de Argentina Programa.</p>
 									<ul class="actions">
 										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
 									</ul>
@@ -58,7 +52,11 @@
 							<section class="panel spotlight medium right" id="first">
 								<div class="content span-7">
 									<h2 class="major">Mis Conocimientos</h2>
-									<p>Herramientas de Microsoft Office- Plataformas de cobranzas online •Software de Gestión Administrativa. •Software para contadores: Xubio  Tiempo  Taxes - Holistor. •Régimen Simplificado del Monotributo •IVA WEB RG 3711 •Convenio Multilateral •Requerimientos y Fiscalizaciones de AFIP • Planificaciones Fiscales • Liquidaciones de Sueldos y Jornales, Sindicales. • Ganancias y Bienes Personales • Exportacion de Servicios.</p>
+									<p>Herramientas de Microsoft Office- Plataformas de cobranzas online</p>
+									<p>Software de Gestión Administrativa. •Software para contadores: Xubio  Tiempo  Taxes Holistor</p>
+									<p>Régimen Simplificado Monotributo •IVA WEB •Convenio Multilateral •Requerimientos y Fiscalizaciones de AFIP • Planificaciones Fiscales</p>
+									<p>Liquidaciones de Sueldos y Jornales, Sindicales. • Ganancias y Bienes Personales • Exportacion de Servicios</p>
+									<p>Ingles Basico- Oral y Escrito</p>
 								</div>
 								<div class="image filtered tinted" data-position="top left">
 									<img src="images/pic02.jpg" alt="" />
@@ -93,9 +91,9 @@
 								<div class="content span-5">
 									<h2 class="major">Referencias Profesionales</h2>
 									<p>Ruben Prox - Gerencia Administrativa - BOLSAPLAST SRL - 03754 - 432032 - administracion@bolsaplastsrl.com.ar </p>
-									<p>Oscar Lopez - Socio Gerente LB Estudio Contable - 03754 - 659381 - oal26@hotmail.com.ar </p>
 									<p>Dante Metner - Socio Gerente Pintureria Planeta Color - 03754 - 417003 - dantemetner@hotmail.com </p>
 									<p>Jhon James Sotto - Direccion Compras y Contrataciones Municipalidad de Leandro N. Alem - 03754 - 406062 - jhonjames-20@hotmail.com </p>
+									<p>Gabriela Kunkel - Instituto Misionero de Estudios Superiores - 03754 - 445085</p>
 								</div>
 								<div class="image filtered tinted" data-position="top right">
 									<img src="images/pic03.jpg" alt="" />
@@ -128,44 +126,21 @@
 									<a href="images/gallery/fulls/09.jpg" class="image filtered span-2-5" data-position="right"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
 								</div>
 							</section>
+							<!-- Panel-->
+							<section class="panel color00">
+								<div class="content span-5">
+									<h2 class="major">Experiencia Laboral</h2>
+									<p> BOLSAPLAST SRL - Analista de Cuentas por Cobrar - 01/09/2014 a a 30/06/2020</p>
+									<p> BOLSAPLAST SRL - Finanzas - 01/07/2020 a 31/12/2020  </p>
+									<p> LB Estudio Contable - Profesion Independiente - 01/01/2021 - Actualidad</p>
+								</div>
+								<div class="image filtered tinted" data-position="top right">
+									<img src="images/pic03.jpg" alt="" />
+								</div>
+							</section>
 						<!-- Panel -->
 						<main>
 							<a href="images/gallery/fulls/02.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
-							<div class="contenedor__todo">
-								<div class="caja__trasera">
-									<div class="caja__trasera-login">
-										<h2>¿Ya tienes una cuenta?</h2>
-										<p>Inicia sesión para entrar en la página</p>
-										<button id="btn__iniciar-sesion">Iniciar Sesión</button>
-									</div>
-									<div class="caja__trasera-register">
-										<p>Regístrate para iniciar sesión</p>
-										<button id="btn__registrarse">Regístrarse</button>
-									</div>
-								</div>
-				
-								<!--Formulario de Login y registro-->
-								<div class="contenedor__login-register">
-									<!--Login-->
-									<form action="" class="formulario__login">
-										<h2>Iniciar Sesión</h2>
-										<input type="text" placeholder="Correo Electronico">
-										<input type="password" placeholder="Contraseña">
-										<button>Entrar</button>
-									</form>
-				
-									<!--Register-->
-									<form action="" class="formulario__register">
-										<h2>Regístrarse</h2>
-										<input type="text" placeholder="Nombre completo">
-										<input type="text" placeholder="Correo Electronico">
-										<input type="text" placeholder="Usuario">
-										<input type="password" placeholder="Contraseña">
-										<button>Regístrarse</button>
-									</form>
-								</div>
-							</div>
-				
 						</main>
 				
 						<script src="assets/js/script.js"></script>
@@ -201,7 +176,7 @@
 									</div>
 									<div class="span-1-5">
 										<ul class="contact-icons color1">
-											<li class="icon brands fa-envelope"><a href="#">giselle_boyko@hotmail.com</a></li>
+											<li class="icon brands fa-facebook"><a href="#">giselle.moraezboyko</a></li>
 											<li class="icon brands fa-github"><a href="#">giselleb1985</a></li>
 											<li class="icon brands fa-linkedin"><a href="#">giselle-moraez-boyko</a></li>
 											<li class="icon brands fa-whatsapp"><a href="#">03754 - 416294</a></li>
@@ -213,9 +188,8 @@
 						<!-- Panel -->
 							<section class="panel color2-alt">
 								<div class="intro color2">
-									<h2 class="major">Mi Busqueda</h2>
-									<p>Me encuentro interesada en adquirir conocimientos y capacitacion en base de datos, puntualmente lo referente a SQL y MySQL orientado a las Ciencias Economicas. </p>
-
+									<h2 class="major">Mi Búsqueda</h2>
+									<p>Me encuentro interesada en adquirir conocimientos y capacitarme en base de datos, puntualmente SQL y MySQL orientado a las Ciencias Economicas. </p>
 									</div>
 
 		<!-- Scripts -->
@@ -223,6 +197,6 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/main.js"></script>
-
+<app-root></app-root>
 	</body>
 </html>
